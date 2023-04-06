@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dip"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/footerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Идет загрузка..."
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

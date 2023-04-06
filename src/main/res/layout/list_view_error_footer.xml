@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dip"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/footerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ошибка сети"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Еще раз"
+        android:textColor="@color/black"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:backgroundTint="@color/design_default_color_secondary"
+        />
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.ProfileViewFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnProfileSave"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_pro_medium"
+            android:text="Логин/Электронная почта:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:id="@+id/inputUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/main_color"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/gotham_pro_medium"
+            android:text="Новый пароль:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:id="@+id/inputPasswordNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/main_color"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/gotham_pro_medium"
+            android:text="Новый пароль еще раз:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:id="@+id/inputPasswordNewAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/main_color"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/gotham_pro_medium"
+            android:text="Текущий пароль:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:id="@+id/inputPasswordCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/main_color"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/labelWarning"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:textColor="@color/main_color"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@id/btnProfileSave"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="15dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnProfileSave"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_bgd_round"
+        android:text="Войти"
+        android:textSize="14dp"
+        android:fontFamily="@font/gotham_pro_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

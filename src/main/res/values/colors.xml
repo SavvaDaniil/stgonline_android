@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_custom">#FF252525</color>
+    <color name="dark_filter">#33000000</color>
+    <color name="border_color">#969696</color>
+    <color name="lock_bgd">#222222</color>
+    <color name="description_block_bgd">#1AFFFFFF</color>
+    <color name="main_color">#ff00FFF0</color>
+    <color name="not_active">#696969</color>
+    <color name="purchase_previews_separator">#40808080</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF808080</color>
+    <color name="red">#FFE60000</color>
+
+    <color name="transparent">#00FFFFFF</color>
+</resources>

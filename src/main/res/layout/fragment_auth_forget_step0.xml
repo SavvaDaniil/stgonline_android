@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.AuthForgetStep0Fragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:text="Электронная почта:"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        />
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/main_color"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_pro_light"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:text="На вашу учетную запись будет отправлен \n6-ти значный код"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnInit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_bgd_round"
+        android:text="Отправить код"
+        android:textSize="14dp"
+        android:fontFamily="@font/gotham_pro_medium"
+        />
+
+    <TextView
+        android:id="@+id/labelWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:textColor="@color/main_color"
+        android:textSize="16dp"
+        />
+
+</LinearLayout>

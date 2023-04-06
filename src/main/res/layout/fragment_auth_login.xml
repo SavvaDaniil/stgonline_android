@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.AuthLoginFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:text="Логин:"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        />
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main_color"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:text="Пароль:"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        />
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main_color"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_bgd_round"
+        android:text="Войти"
+        android:textSize="14dp"
+        android:fontFamily="@font/gotham_pro_medium"
+        />
+
+    <TextView
+        android:id="@+id/labelWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/gotham_pro_medium"
+        android:textColor="@color/main_color"
+        android:textSize="16dp"
+        />
+
+</LinearLayout>
